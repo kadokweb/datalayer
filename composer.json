@@ -1,0 +1,32 @@
+{
+  "name": "kadokweb/datalayer",
+  "description": "The data layer is a persistent abstraction component of your database that PDO",
+  "keywords": [
+    "KadokWeb",
+    "Kadok",
+    "Database",
+    "PDO",
+    "Save",
+    "Delete",
+    "Destroy",
+    "CRUD"
+  ],
+  "homepage": "http://www.kadok.com.br",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Doka Silva",
+      "email": "doka@kadok.com.br",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=7.2",
+    "ext-pdo": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "KadokWeb\\DataLayer\\": "src"
+    }
+  }
+}
